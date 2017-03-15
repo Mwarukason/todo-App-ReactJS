@@ -47,9 +47,9 @@ var destination = document.querySelector("#app");
                 <div className="todo_subclass">
                   <form onSubmit={this.addItem}>
                     <input ref={(a) => this._inputElement = a}
-                           placeholder="enter task">
+                           placeholder="Enter Your Task">
                     </input>
-                    <button type="submit">add</button>
+                    <button type="submit">ADD</button>
                   </form>
                 </div>
                 <TodoItems entries={this.state.items}/>
