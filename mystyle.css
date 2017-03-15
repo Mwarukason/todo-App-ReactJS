@@ -1,32 +1,35 @@
 body {
      padding: 50px;
-     background-color: #1f6040;
-     font-family: "Butcherman Caps";
+     background-color: #006666;
+     font-family: sans-serif;
    }
-   .todo_class .todo_subclass input {
+.todoListMain{
+ align:middle;
+}
+   .todoListMain .header input {
      padding: 10px;
-     font-size: 16px;
+     font-size: 20px;
      border: 2px solid #FFF;
    }
-   .todo_class .todo_subclass button {
+   .todoListMain .header button {
      padding: 10px;
-     font-size: 16px;
+     font-size: 20px;
      margin: 10px;
      background-color: #0066FF;
      color: #FFF;
      border: 2px solid #0066FF;
    }
-   .todo_class .todo_subclass button:hover {
+   .todoListMain .header button:hover {
      background-color: #003399;
      border: 2px solid #003399;
      cursor: pointer;
    }
-   .todo_class .elemList {
+   .todoListMain .theList {
      list-style: none;
      padding-left: 0;
      width: 255px;
    }
-   .todo_class .elemList li {
+   .todoListMain .theList li {
      color: #333;
      background-color: rgba(255,255,255,.5);
      padding: 15px;
